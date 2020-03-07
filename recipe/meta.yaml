@@ -1,17 +1,17 @@
 {% set name = "pyepr" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 72a2044ffcd570a17441d72d625f743b7c962b571b505eab831dcfc1b216f82a
+  sha256: 85fbf9a2715d8fd4332154804c7660f4c98a64ad1e97a9b00b1147276e472866
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
@@ -40,7 +40,7 @@ about:
   license_file:
     - LICENSE.txt
     - LICENSES/epr-api.txt
-  summary: 'Python ENVISAT Product Reader API'
+  summary: Python ENVISAT Product Reader API
 
   description: |
     PyEPR provides Python bindings for the ENVISAT Product Reader C API
