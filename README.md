@@ -3,7 +3,7 @@ About pyepr
 
 Home: https://avalentino.github.com/pyepr
 
-Package license: GPL-3.0
+Package license: GPL-3.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyepr-feedstock/blob/master/LICENSE.txt)
 
