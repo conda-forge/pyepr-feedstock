@@ -28,7 +28,7 @@ requirements:
 
 test:
   requires:
-    - unittest2  # [py2k]
+    - packaging
   source_files:
     - tests/test_all.py
   imports:
