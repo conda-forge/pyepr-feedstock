@@ -40,7 +40,6 @@ about:
   license_family: GPL
   license_file:
     - LICENSE.txt
-    - LICENSES/epr-api.txt
   summary: Python ENVISAT Product Reader API
 
   description: |
