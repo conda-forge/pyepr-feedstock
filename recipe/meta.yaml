@@ -19,6 +19,7 @@ requirements:
     - {{ stdlib("c") }}
   host:
     - python
+    - setuptools >=61.0.0
     - pip
     - packaging
     - numpy >=1.7
