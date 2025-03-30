@@ -1,16 +1,16 @@
 {% set name = "pyepr" %}
-{% set version = "1.1.5" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8de7d490749c06b2e376dd37e0515cf7e25c52fec1d1e3e5a44157d70a02dfa8
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: cce482471979fbdbccdce179c8895d9ba2616e8e2c999aa198e043f64a493ed0
 
 build:
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
