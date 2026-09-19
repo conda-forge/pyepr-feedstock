@@ -34,12 +34,16 @@ requirements:
 test:
   requires:
     - packaging
-    - pooche
+    - pip
+    - pooch
     - pytest
   source_files:
     - tests/
   imports:
     - epr
+  commands:
+    - pip check
+    - python -m pytest tests
 
 about:
   home: https://avalentino.github.com/pyepr
