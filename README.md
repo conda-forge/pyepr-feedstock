@@ -22,7 +22,6 @@ the data either on a geophysical (decoded, ready-to-use pixel samples)
 or on a raw data layer. The raw data access makes it possible to read
 any data field contained in a product file.
 
-
 Current build status
 ====================
 
